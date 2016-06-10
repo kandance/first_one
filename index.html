@@ -3,29 +3,43 @@
 	<head>
 		<title>This is a cool website</title>
 		<meta charset= "utf-8">
-		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/styles/styles.css">
 	</head>
 	<body>
-		<div class="main-container">
-			<header>
-				<nav class="nav-container">
-					<ul>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">CompSci Star Academy</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
 						<li class="nav-unit"><a href="#">About</a></li>
 						<li class="nav-unit"><a href="#">Projects</a></li>
 						<li class="nav-unit"><a href="#">Testimonials</a></li>
 						<li class="nav-unit"><a href="#">Contact</a></li>
 					</ul>
-				</nav>
-			</header>
-			<main>
-				<h2>Teaching computer science the right way</h2>
-				<p>Key concepts include the following</p>
-				<ul>
-					<li>Teamwork and empathy</li>
-					<li>Algorithms and critical thinking</li>
-					<li>Web development and Internet of Things</li>
-				</ul>
-			</main>
+				</div>
+			</div>
 		</div>
+		<div class="container first">
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>Teaching computer science the right way</h2>
+					<p>Key concepts include the following</p>
+					<ul>
+						<li>Teamwork and empathy</li>
+						<li>Algorithms and critical thinking</li>
+						<li>Web development and Internet of Things</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
